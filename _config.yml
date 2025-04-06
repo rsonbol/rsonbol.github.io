@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Assistant Professor, PhD in Artificial Intelligence and Natural Language Processing"
   location         : "Damascus, Syria"
-  employer         : "Higher Institute for Applied Sciences and Technology (HIAST) & Syrian Private University (SPU)"
+  employer         : "HIAST & SPU"
   uri              : # URL
   email            : "rsonbol@gmail.com" 
 
@@ -37,7 +37,7 @@ author:
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-2785-2508"
   semantic         : # URL
-  pubmed           : # URL
+  linkedin         : "https://www.linkedin.com/in/rsonbol" # URL
   researchgate     : # URL
   scopus           : # URL
 
