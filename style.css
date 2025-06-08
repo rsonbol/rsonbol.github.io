@@ -1,57 +1,137 @@
-:root {
-  --bg-color: #ffffff;
-  --text-color: #333;
-  --primary-color: #005f73;
-  --secondary-color: #0a9396;
-  --accent-color: #94d2bd;
-}
-
-body {
+/* General Reset */
+*,
+*::before,
+*::after {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: var(--bg-color);
-  color: var(--text-color);
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
   line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
 }
 
+/* Container */
 .container {
-  width: 90%;
-  max-width: 800px;
-  margin: auto;
-  padding: 1em 0;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
+/* Header Styling */
 header {
-  background-color: var(--primary-color);
-  color: white;
-  padding: 1em 0;
+  background-color: #005a87;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
 }
 
 header h1 {
-  margin: 0.2em 0;
+  font-size: 2.5em;
+  margin-bottom: 10px;
 }
 
 header p {
-  margin: 0;
+  font-size: 1.2em;
+}
+
+/* Navigation Styling */
+nav {
+  margin-top: 20px;
 }
 
 nav a {
-  color: white;
+  color: #fff;
   text-decoration: none;
-  margin-right: 1em;
+  margin: 0 15px;
+  font-size: 1.1em;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
-main section {
-  margin-bottom: 2em;
+/* Main Content Styling */
+main {
+  margin-top: 40px;
 }
 
-footer {
-  background-color: var(--accent-color);
+/* Profile Section */
+.profile {
   text-align: center;
-  padding: 1em 0;
-  font-size: 0.9em;
+  margin-bottom: 40px;
+}
+
+.profile img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+/* Social Links Styling */
+.social-links {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.social-links h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.social-links ul {
+  list-style: none;
+}
+
+.social-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.social-links a {
+  color: #005a87;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section */
+.contact {
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 1.1em;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 1em;
 }
