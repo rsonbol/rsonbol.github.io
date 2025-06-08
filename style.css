@@ -68,6 +68,32 @@ body {
   text-decoration: underline;
 }
 
+.social-links {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.social-links a {
+  display: block;
+  margin: 0.4rem 0;
+  color: #d4af37;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-links a i {
+  margin-right: 8px;
+  color: #d4af37;
+  font-size: 1rem;
+}
+
+.social-links a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
 /* ============ Main Content ============ */
 .main-content {
   flex: 1;
