@@ -9,35 +9,38 @@
 
 /* Body Styling */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Georgia', serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-color: #f9f9f9;
   color: #333;
   padding: 20px;
 }
 
 /* Container */
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   max-width: 1200px;
 }
 
 /* Header Styling */
 header {
-  background-color: #005a87;
+  background-color: #004d6e;
   color: #fff;
-  padding: 20px 0;
+  padding: 40px 0;
   text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-  font-size: 2.5em;
+  font-size: 3em;
   margin-bottom: 10px;
 }
 
 header p {
   font-size: 1.2em;
+  margin-bottom: 20px;
 }
 
 /* Navigation Styling */
@@ -50,6 +53,7 @@ nav a {
   text-decoration: none;
   margin: 0 15px;
   font-size: 1.1em;
+  text-transform: uppercase;
 }
 
 nav a:hover {
@@ -72,11 +76,13 @@ main {
   height: auto;
   border-radius: 50%;
   margin-bottom: 20px;
+  border: 4px solid #004d6e;
 }
 
 .profile p {
   font-size: 1.1em;
   margin-bottom: 10px;
+  color: #555;
 }
 
 /* Social Links Styling */
@@ -86,8 +92,9 @@ main {
 }
 
 .social-links h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   margin-bottom: 20px;
+  color: #004d6e;
 }
 
 .social-links ul {
@@ -96,17 +103,17 @@ main {
 
 .social-links li {
   display: inline;
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 .social-links a {
-  color: #005a87;
-  font-size: 1.2em;
+  color: #004d6e;
+  font-size: 1.3em;
   text-decoration: none;
 }
 
 .social-links a:hover {
-  text-decoration: underline;
+  color: #0073e6;
 }
 
 /* Contact Section */
@@ -115,12 +122,14 @@ main {
 }
 
 .contact h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   margin-bottom: 20px;
+  color: #004d6e;
 }
 
 .contact p {
   font-size: 1.1em;
+  color: #555;
 }
 
 /* Footer Styling */
@@ -130,6 +139,8 @@ footer {
   padding: 20px 0;
   text-align: center;
   margin-top: 40px;
+  border-radius: 8px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
 }
 
 footer p {
