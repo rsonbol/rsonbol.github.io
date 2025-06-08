@@ -75,11 +75,17 @@ body {
   margin-bottom: 10px;
 }
 
-.content section ul {
-  list-style-type: disc;
-  margin-left: 20px;
+.content section p {
+  font-size: 1.1em;
+  color: #555;
 }
 
-.content section ul li {
-  margin-bottom: 5px;
+.content section a {
+  font-size: 1.1em;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.content section a:hover {
+  text-decoration: underline;
 }
