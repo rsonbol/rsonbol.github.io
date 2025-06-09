@@ -93,6 +93,12 @@ body {
   text-decoration: underline;
 }
 
+@media (max-width: 768px) {
+  .sidebar p,
+  .sidebar a:not(.important-link) { /* mark essential links with this class */
+    display: none;
+  }
+}
 
 /* ============ Main Content ============ */
 .main-content {
