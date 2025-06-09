@@ -158,8 +158,9 @@ ul li {
     width: 100%;
     flex-direction: column;
     justify-content: space-around;
-    text-align: left;
-    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 1rem;
   }
 
   .main-content {
@@ -175,12 +176,14 @@ ul li {
 
   .sidebar h1,
   .sidebar h2 {
-    font-size: 1rem;
-    margin: 0;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+    margin: 0.3rem 0;
   }
 
   .sidebar p,
   .sidebar a {
-    font-size: 0.8rem;
+    font-size: 1.0rem;
   }
 }
