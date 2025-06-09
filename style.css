@@ -65,7 +65,8 @@ body {
 }
 
 .sidebar a:hover {
-  text-decoration: underline;
+  /*text-decoration: underline;*/
+  color: #e6c75e;
 }
 
 .social-links {
