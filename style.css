@@ -94,11 +94,52 @@ body {
 }
 
 @media (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    flex-direction: column; /* Keep vertical stacking */
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 1rem;
+  }
+
+  .sidebar img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+    margin-right: 0; /* no horizontal space needed */
+  }
+
+  .sidebar h1,
+  .sidebar h2 {
+    font-size: 1.1rem;
+    margin: 0.3rem 0;
+    text-align: center;
+  }
+
   .sidebar p,
-  .sidebar a:not(.important-link) { /* mark essential links with this class */
-    display: none;
+  .sidebar a {
+    font-size: 0.9rem;
+    text-align: center;
+    display: block;
+    margin: 0.3rem 0;
+  }
+
+  .social-links {
+    flex-direction: row; /* horizontal social icons if you want */
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+
+  .social-links a {
+    margin: 0 0.5rem;
   }
 }
+
 
 /* ============ Main Content ============ */
 .main-content {
