@@ -101,7 +101,7 @@ body {
   .sidebar {
     width: 100%;
     display: flex;
-    /* flex-direction: column;*/ /* this is the KEY FIX */
+    flex-direction: column; /* this is the KEY FIX */
     align-items: center;
     text-align: center;
     padding: 1.5rem 1rem;
