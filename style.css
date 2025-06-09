@@ -92,50 +92,6 @@ body {
   color: #ffffff;
   text-decoration: underline;
 }
-
-@media (max-width: 768px) {
-  body {
-    flex-direction: column; /* Sidebar on top, content below */
-  }
-
-  .sidebar {
-    width: 100%;
-    display: flex;
-    flex-direction: column; /* this is the KEY FIX */
-    align-items: center;
-    text-align: center;
-    padding: 1.5rem 1rem;
-  }
-
-  .sidebar img {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 1rem;
-  }
-
-  .sidebar h1,
-  .sidebar h2,
-  .sidebar p,
-  .sidebar a {
-    width: 100%;
-    text-align: center;
-    margin: 0.3rem 0;
-  }
-
-  .social-links {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 1rem;
-  }
-
-  .main-content {
-    padding: 1rem;
-  }
-}
-
-
 /* ============ Main Content ============ */
 .main-content {
   flex: 1;
@@ -200,7 +156,7 @@ ul li {
 
   .sidebar {
     width: 100%;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     text-align: left;
     padding: 1rem;
