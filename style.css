@@ -93,16 +93,15 @@ body {
   text-decoration: underline;
 }
 
-
 @media (max-width: 768px) {
   body {
-    flex-direction: column; /* Sidebar on top, content below */
+    flex-direction: column; /* Sidebar on top, main content below */
   }
 
   .sidebar {
     width: 100%;
     display: flex;
-    flex-direction: column; /* this is the KEY FIX */
+    flex-direction: column; /* Stack sidebar content vertically */
     align-items: center;
     text-align: center;
     padding: 1.5rem 1rem;
@@ -118,16 +117,16 @@ body {
   .sidebar h2,
   .sidebar p,
   .sidebar a {
-    width: 100%;
-    text-align: center;
-    margin: 0.3rem 0;
+    width: 100%;          /* Full width to stack */
+    text-align: center;   /* Center text */
+    margin: 0.3rem 0;     /* vertical spacing */
   }
 
   .social-links {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
+    display: flex;           /* flex to make icons in a row */
+    flex-direction: row;     /* icons side by side */
+    justify-content: center; /* center them horizontally */
+    gap: 10px;               /* spacing between icons */
     margin-top: 1rem;
   }
 
@@ -135,6 +134,7 @@ body {
     padding: 1rem;
   }
 }
+
 
 /* ============ Main Content ============ */
 .main-content {
