@@ -161,6 +161,7 @@ ul li {
     align-items: center;
     text-align: center;
     padding: 1.5rem 1rem;
+    min-height: 50vh;
   }
 
   .main-content {
