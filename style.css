@@ -74,7 +74,7 @@ body {
 }
 
 .social-links a {
-  display: block;
+  display: inline;
   margin: 0.4rem 0;
   color: #d4af37;
   font-size: 0.95rem;
@@ -186,5 +186,6 @@ ul li {
   .sidebar p,
   .sidebar a {
     font-size: 1.0rem;
+    display: inline;
   }
 }
