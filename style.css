@@ -44,6 +44,11 @@ tbody tr:hover {
     background-color: #f1f1f1;
 }
 
+@media (max-width: 768px) {
+    .desc-col, .desc-data {
+      display: none;
+    }
+  }
 
 /* ============ Sidebar ============ */
 .sidebar {
